@@ -2,8 +2,7 @@ name: Daily Job Agent Run
 
 on:
   schedule:
-    # Runs at 06:00 UTC every day
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *' # Запуск каждый день в 06:00 UTC (09:00 по Киеву)
   workflow_dispatch:
 
 jobs:
